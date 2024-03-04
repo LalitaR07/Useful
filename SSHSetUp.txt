@@ -1,0 +1,32 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Clone from git
+
+If you prefer not to enter your credentials every time, you can set up SSH authentication. Here's a brief overview:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Generate SSH key:
+    
+        Open terminal or command prompt.
+        Use the following command to generate an SSH key pair:
+
+    $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+    Follow the prompts to save the SSH key in the default location or specify a custom location.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Add SSH key to GitHub:
+
+    Copy the contents of the public key (typically found in ~/.ssh/id_rsa.pub).  
+    (cd ~/.ssh  then ls  then gedit id_rsa.pub)
+    Go to your GitHub account settings.
+    Navigate to "SSH and GPG keys".
+    Click on "New SSH key" and paste your public key.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Use SSH URL for Git operations:
+
+    Instead of using the HTTPS URL, use the SSH URL when cloning or configuring your Git repository.
+    For example:
+    
+    git clone git@github.com:UserName/myproject.git
+
+By following either of these methods, you should be able to authenticate with GitHub successfully.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#ChatGPT

@@ -1,0 +1,35 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Steps to create a new repo on git
+
+https://www.geeksforgeeks.org/how-to-install-configure-and-use-git-on-ubuntu/
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+git config --list
+cd git(TAB)
+mkdir my-project cd my-project 
+git init 
+git remote add origin  https://github.com/your_username/myproject.git 
+echo "testing" >>a.c
+ls
+git add .
+git commit -m 'your_message'
+git push origin master
+Username for ' https://github.com : your_username 
+Password for ' https://your_username@github.com ' : ******* 
+
+######################################################################  But here I am getting error So a different method is
+
+Create repo from the webpage and clone with SSH link
+git clone git@github.com:UserName/myproject.git  
+
+see SSHSetUp.txt if SSH key not there in git
+
+############################################################# The usual commands. Alaways keep a backup before pull (ALWAYS)
+
+git add. 
+git commit -m 'your_message'  
+git pull origin master 
+git push origin master
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
